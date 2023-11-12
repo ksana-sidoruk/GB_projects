@@ -5,6 +5,7 @@ import org.example.interfaces.IOperation;
 
 public class DivideOperation implements IOperation {
 
+
     @Override
     public ComplexNumber execute(ComplexNumber value1, ComplexNumber value2) {
         // Проверка деления на 0

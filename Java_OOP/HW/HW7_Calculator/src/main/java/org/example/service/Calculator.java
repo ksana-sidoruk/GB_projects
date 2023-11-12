@@ -17,7 +17,14 @@ public class Calculator implements ICalculator {
         this.availableOperations = availableOperations;
         this.logger = logger;
     }
-
+    /**
+     * Метод executeOperation выполняет заданную операцию над комплексными числами.
+     *
+     * @param operation операция (сложение, умножение, деление)
+     * @param value1    первое комплексное число
+     * @param value2    второе комплексное число
+     * @return результат выполнения операции
+     */
     @Override
     public ComplexNumber executeOperation(String operation, ComplexNumber value1, ComplexNumber value2) {
         logger.logDebug(String.format("Operation %1$s with values %2$s and %3$s was called", operation, value1.toString(), value2.toString()));
@@ -36,7 +43,7 @@ public class Calculator implements ICalculator {
             }
 
         } else {
-            logger.logError(String.format("Operation %1$s not supported", operation));
+            logger.logError(String.format("Operation %1$s is not supported", operation));
             return null;
         }
     }
