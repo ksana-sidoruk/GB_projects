@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+body {
+    background: white;
+    max-width: 1600px;
+    margin: auto;
+    width: 60%;
+}
+
+.header {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    text-align: left;
+    text-justify: left;
+    gap: 20px;
+    align-items: center;
+}
+
+.menu {
+    flex-shrink: 0;
+    text-align: end;
+    /* justify-content: end; */
+    /* gap: 30px; */
+    width: 80%;
+}
+
+.menu__item {
+    font-size: 14px;
+    height: 1px;
+    text-align: left;
+    color: #000;
+    padding: 10px;
+}
+
+.menu__home {
+    font-size: 14px;
+    color: #F25822;
+    text-align: left;
+    padding: 10px;
+}
+
+.main__block {
+    display: flex;
+    text-align: left;
+    text-justify: left;
+    justify-content: space-between;
+    margin-bottom: 3%;
+    /* padding: auto; */
+}
+
+.left__container {
+    width: 50%;
+}
+
+.title {
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    font-weight: 700;
+    line-height: -1px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 90%;
+
+}
+
+.text {
+    color: rgb(136, 136, 136);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: -1px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 90%;
+}
+
+.right__container {
+    width: 50%;
+}
+
+.img {
+    max-width: 100%;
+    height: auto;
+}
+
+.buttons {
+    margin-top: 40px;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 50px;
+}
+
+.button__red {
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px #F2582233;
+    color: white;
+    width: 140px;
+    height: 50px;
+    top: 75px;
+    left: 2013px;
+    border-radius: 50px;
+    border: none;
+    margin-right: 10px;
+}
+
+.button__white {
+    background: none;
+    color: #AAAAAA;
+    width: 140px;
+    height: 50px;
+    top: 75px;
+    left: 2013px;
+    border-radius: 50px;
+    border: none;
+    margin-right: 10px;
+}
+
+.video {
+    color: #AAAAAA;
+}
+
+.footer {
+    margin-top: 50px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.logos {
+    width: 11%;
+    align-self: center;
+}
