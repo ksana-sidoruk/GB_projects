@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+body {
+    background: white;
+    max-width: 1900px;
+    margin: auto;
+    width: 60%;
+}
+
+/* -----------HEADER----------- */
+
+.header {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    text-align: left;
+    text-justify: left;
+    gap: 20px;
+    align-items: center;
+    padding:5%;
+}
+
+.menu {
+    flex-shrink: 0;
+    text-align: end;
+    /* justify-content: end; */
+    /* gap: 30px; */
+    width: 80%;
+}
+
+.menu__item {
+    font-size: 14px;
+    height: 1px;
+    text-align: left;
+    color: #000;
+    padding: 10px;
+}
+
+.menu__home {
+    font-size: 14px;
+    color: #F25822;
+    text-align: left;
+    padding: 10px;
+}
+
+
+/* ---SEO & Digital Marketing For Your Website----*/
+.block1 {
+    display: flex;
+    text-align: left;
+    text-justify: left;
+    justify-content: space-between;
+    margin-bottom: 3%;
+    padding:5%;
+}
+
+.left__container {
+    width: 50%;
+}
+
+.title {
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    font-weight: 700;
+    line-height: -1px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 90%;
+    margin-bottom: 20px;
+
+}
+
+.text {
+    color: rgb(136, 136, 136);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: -1px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 90%;
+}
+
+.right__container {
+    width: 50%;
+}
+
+.img {
+    max-width: 100%;
+    height: auto;
+}
+
+.buttons {
+    margin-top: 40px;
+    display: flex;
+    justify-content: left;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 50px;
+    
+}
+
+.button__red {
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px #F2582233;
+    color: white;
+    width: 140px;
+    height: 50px;
+    top: 75px;
+    left: 2013px;
+    border-radius: 50px;
+    border: none;
+    margin-right: 10px;
+}
+
+.button__white {
+    display: flex;
+    background: none;
+    color: #AAAAAA;
+    width: 140px;
+    height: 50px;
+    top: 75px;
+    left: 2013px;
+    border-radius: 50px;
+    border: none;
+    margin-right: 10px;
+    gap: 5px;
+    align-items: center;;
+}
+
+.video {
+    color: #AAAAAA;
+}
+
+/* -----------FOOTER----------- */
+
+.footer {
+    margin-top: 50px;
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 50px;
+    padding:5%;
+}
+
+.logos {
+    width: 11%;
+    align-self: center;
+}
+
+/* -----------Perfect Solution----------- */
+.block2 {
+    display: flex;
+    text-align: left;
+    text-justify: left;
+    /* justify-content: space-between; */
+    margin-bottom: 3%;
+    /* padding: auto; */
+    background-color: #FAFAFA;
+    padding: 5%;
+}
+
+
+.left__container2 {
+    width: 50%;
+}
+
+.right__container2 {
+    box-sizing: content-box;
+    width: 60%;
+}
+
+.title2 {
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: -1px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+.text2 {
+    color: rgb(136, 136, 136);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: -1px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 90%;
+}
+
+
+/* -----------First Grid Block----------- */
+
+.block3 {
+    display: grid;
+    grid-template: 1fr / 1fr 1fr 1fr;
+    margin-top: 50px;
+    padding:5%;
+    gap:3%;
+}
+
+.block__fraction{
+    padding: 10px;
+}
+.fraction2{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title3 {
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.text3{
+    margin-top: 10px;
+     font-size: 13px;
+    color: #666666;
+    margin-bottom: 10px;
+}
+
+.read__more{
+    font-weight: 700;
+    font-size: 11px;
+}
+
+/* Why You Should Choose Us. */
+
+.block4{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-justify: center;
+    /* justify-content: space-between; */
+    margin-bottom: 3%;
+    /* padding: auto; */
+    background-color: #FAFAFA;
+    padding: 5%;
+}
+
+.center{
+    text-align: center;
+}
+
+.block4_1 {
+    display: grid;
+    grid-template: 1fr / 1fr 1fr 1fr;
+    margin-top: 50px;
+    padding:5%;
+    gap:3%;
+}
+
+.block4_1__fraction{
+    padding: 15px;
+    background-color: white;
+}
+
+.fraction4{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.grid__img{
+    width: 80%;
+}
+
+.title4 {
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.text4{
+    margin-top: 10px;
+     font-size: 15px;
+    color: #666666;
+    margin-bottom: 10px;
+}
