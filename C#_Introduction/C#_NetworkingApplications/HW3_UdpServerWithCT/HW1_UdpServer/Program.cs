@@ -2,7 +2,7 @@
 using System.Net;
 using System.Text;
 
-namespace HW4_UdpServer
+namespace HW3_UdpServer
 {
     internal class Program
     {
